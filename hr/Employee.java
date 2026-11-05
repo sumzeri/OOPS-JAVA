@@ -3,12 +3,10 @@
 // in a subclass in another package, and a private field is accessible only within its own
 // class. Write a Java program demonstrating all three cases.
 package hr;
-
 public class Employee {
     public String publicName = "Piyush";
     protected double salary = 50000;
     private String password = "12345";
-
     public void showPrivate() {
         System.out.println("Private password: " + password);
     }
